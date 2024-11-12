@@ -6,7 +6,7 @@
 
 Before starting this assignment you must get the requirements installed. 
 
-**This should be done already as part of the scraping unit.**
+**NOTE: This should be done already as part of the scraping unit.**
 
 Install the assignemnt python requirements:
 
@@ -16,14 +16,13 @@ Install the assignemnt python requirements:
 
 ### Running Tests
 
-There is some code and tests already working in this assignment. These are sanity checks to ensure VS Code is configured properly.
+There are some code and tests already working in this assignment. These are sanity checks to ensure VS Code is configured properly.
 
 1. Open **Testing** in the activity bar: Menu => View => Testing
 2. Open the **>** by clicking on it next to **assignment_06**. Keep clicking on **>** until you see **test_should_pass** in each  **test_????.py** file
 4. Click the Play button `|>` next to **test_should_pass** to execute the test. 
 5. A green check means the test code ran and the test has passed.
 6. A red X means the test code ran but the test has failed. When a test fails you will be given an error message and stack trace with line numbers.
-
 
 ### Debugging
 
@@ -34,7 +33,7 @@ Odds are you will need to use some debugging strategies in this assignment.
     - then set a breakpoint in the test function and run the test as you would any other python program.
     - run the file with debugging: Menu => Run => Start Debugging
 
-- You will not need streamlit in this assignment.
+- You will not need streamlit for this assignment.
 
 ## Assignment: Scraping a Restaurant Menu
 
