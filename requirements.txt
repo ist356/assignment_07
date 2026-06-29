@@ -1,2 +1,9 @@
-playwright
+jupyter
+streamlit
 pandas
+numpy
+matplotlib
+pytest
+
+# project-specific
+playwright
