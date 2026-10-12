@@ -145,7 +145,14 @@ def test_scrape_menus_script(site_url, tmp_path):
     result = subprocess.run([sys.executable, repo_path("code", "scrape_menus.py"),
                              "Lakeshore Lattes", "Hilltop Grind"],
                             capture_output=True, text=True, env=env, timeout=240)
-    assert result.returncode == 0, f"scrape_menus.py failed:\n{result.stderr[-1500:]}"
+    if result.returncode != 0:
+        lines = result.stderr.strip().splitlines()
+        error = lines[-1] if lines else "(no error output)"
+        progress = result.stdout.strip().splitlines()
+        last = progress[-1] if progress else "(nothing printed)"
+        raise AssertionError(
+            f"scrape_menus.py failed with {error} — last thing it printed: {last!r}. "
+            f"Full error:\n{result.stderr[-1500:]}")
     assert out.exists(), "write the dataset to MENUS_FILE"
     written = pd.read_csv(out)
     want = fixture("menus.csv")
