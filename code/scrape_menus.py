@@ -51,7 +51,10 @@ def main(cafes: list[str]) -> None:
     """Scrape `cafes` and write the dataset (ours plus theirs) to MENUS_FILE."""
     rows = []
     with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=True)
+        # Containers (Codespaces, the grader) have very little shared memory;
+        # without this flag Chromium can crash as soon as it opens a page.
+        browser = playwright.chromium.launch(headless=True,
+                                           args=["--disable-dev-shm-usage"])
         page = browser.new_page()
         for cafe in cafes:
             print(f"Scraping {cafe}...", flush=True)

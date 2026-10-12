@@ -52,7 +52,10 @@ def show(label: str, result) -> None:
 os.makedirs(CACHE_DIR, exist_ok=True)
 rows = []
 with sync_playwright() as playwright:
-    browser = playwright.chromium.launch(headless=True)
+    # Containers (Codespaces, the grader) have very little shared memory;
+    # without this flag Chromium can crash as soon as it opens a page.
+    browser = playwright.chromium.launch(headless=True,
+                                       args=["--disable-dev-shm-usage"])
     page = browser.new_page()
     for name, scraper in [("lakeshore", scrape_lakeshore), ("hilltop", scrape_hilltop),
                           ("canal", scrape_canal)]:

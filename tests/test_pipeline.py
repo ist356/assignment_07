@@ -92,7 +92,10 @@ def site_url():
 @pytest.fixture(scope="session")
 def browser():
     with sync_playwright() as playwright:
-        chromium = playwright.chromium.launch(headless=True)
+        # Containers (Codespaces, the grader) have very little shared memory;
+        # without this flag Chromium can crash as soon as it opens a page.
+        chromium = playwright.chromium.launch(headless=True,
+                                           args=["--disable-dev-shm-usage"])
         yield chromium
         chromium.close()
 
