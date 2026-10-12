@@ -1,0 +1,157 @@
+[
+ {
+  "id": "brewed-coffee",
+  "name": "Brewed Coffee",
+  "category": "Coffee",
+  "description": "Our rotating single-origin, brewed fresh every half hour.",
+  "prices": {
+   "S": 2.45,
+   "M": 2.85,
+   "L": 3.25
+  }
+ },
+ {
+  "id": "espresso",
+  "name": "Espresso",
+  "category": "Coffee",
+  "description": "Two shots of our house espresso blend.",
+  "prices": {
+   "S": 2.6,
+   "M": 3.0,
+   "L": 3.4
+  }
+ },
+ {
+  "id": "caffe-americano",
+  "name": "Caffè Americano",
+  "category": "Coffee",
+  "description": "Espresso topped with hot water for a long, smooth cup.",
+  "prices": {
+   "S": 3.35,
+   "M": 3.75,
+   "L": 4.15
+  }
+ },
+ {
+  "id": "latte",
+  "name": "Latte",
+  "category": "Coffee",
+  "description": "Espresso with steamed milk and a thin layer of foam.",
+  "prices": {
+   "S": 4.35,
+   "M": 4.75,
+   "L": 5.15
+  }
+ },
+ {
+  "id": "cappuccino",
+  "name": "Cappuccino",
+  "category": "Coffee",
+  "description": "Equal parts espresso, steamed milk and velvety foam.",
+  "prices": {
+   "S": 4.2,
+   "M": 4.6,
+   "L": 5.0
+  }
+ },
+ {
+  "id": "mochaccino",
+  "name": "Mochaccino",
+  "category": "Coffee",
+  "description": "Espresso, dark chocolate and steamed milk.",
+  "prices": {
+   "S": 4.85,
+   "M": 5.25,
+   "L": 5.65
+  }
+ },
+ {
+  "id": "psl",
+  "name": "PSL",
+  "category": "Coffee",
+  "description": "Espresso, pumpkin, cinnamon and nutmeg. Seasonal.",
+  "prices": {
+   "S": 5.1,
+   "M": 5.5,
+   "L": 5.9
+  }
+ },
+ {
+  "id": "cortado",
+  "name": "Cortado",
+  "category": "Coffee",
+  "description": "Espresso cut with an equal amount of warm milk.",
+  "prices": {
+   "S": 3.55,
+   "M": 3.95,
+   "L": 4.35
+  }
+ },
+ {
+  "id": "nitro-cold-brew",
+  "name": "Nitro Cold Brew",
+  "category": "Coffee",
+  "description": "Our cold brew infused with nitrogen, served on tap.",
+  "prices": {
+   "S": 4.85,
+   "M": 5.25,
+   "L": 5.65
+  }
+ },
+ {
+  "id": "matcha-latte",
+  "name": "Matcha Latte",
+  "category": "Tea",
+  "description": "Ceremonial-grade matcha whisked with steamed milk.",
+  "prices": {
+   "S": 5.05,
+   "M": 5.45,
+   "L": 5.85
+  }
+ },
+ {
+  "id": "almond-croissant",
+  "name": "Almond Croissant",
+  "category": "Food",
+  "description": "Twice-baked croissant filled with almond cream.",
+  "prices": {
+   "Each": 3.85
+  }
+ },
+ {
+  "id": "blueberry-muffin",
+  "name": "Blueberry Muffin",
+  "category": "Food",
+  "description": "Bursting with wild blueberries and a crumb top.",
+  "prices": {
+   "Each": 3.45
+  }
+ },
+ {
+  "id": "breakfast-sandwich",
+  "name": "Breakfast Sandwich",
+  "category": "Food",
+  "description": "Egg, cheddar and your choice of bacon or sausage.",
+  "prices": {
+   "Each": 7.25
+  }
+ },
+ {
+  "id": "avocado-toast",
+  "name": "Avocado Toast",
+  "category": "Food",
+  "description": "Smashed avocado, lemon and chili flakes on sourdough.",
+  "prices": {
+   "Each": 8.25
+  }
+ },
+ {
+  "id": "bagel--cream-cheese",
+  "name": "Bagel & Cream Cheese",
+  "category": "Food",
+  "description": "A local bagel, toasted, with plain cream cheese.",
+  "prices": {
+   "Each": 3.5
+  }
+ }
+]

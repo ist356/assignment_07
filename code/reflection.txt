@@ -1,0 +1,8 @@
+Write your reflection here.
+
+See reflection.md for what makes a good reflection — be specific, use the
+terminology from this assignment (HTML element, CSS selector, class and id
+selectors, sibling selector, inner_text, attribute, headless browser, waiting for
+JavaScript, crawling, pagination, read_html, melt, fuzzy matching, normalization,
+threshold, human in the loop, merge indicator, gap analysis), and make it
+actionable.

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menu — Lakeshore Lattes</title>
+<style>
+body{margin:0;font-family:Georgia,serif;background:#f6f1e9;color:#2b2420}
+header{background:#1f4e5f;color:#fff;padding:28px 40px}
+header h1{margin:0;font-size:34px;letter-spacing:.5px} header p{margin:6px 0 0;opacity:.85}
+nav{background:#163a47;padding:10px 40px} nav a{color:#cfe6ee;margin-right:18px;text-decoration:none}
+.menu{max-width:1080px;margin:0 auto;padding:24px 40px 60px}
+.menu-section{margin-top:34px}
+.menu-section__title{font-size:26px;border-bottom:2px solid #1f4e5f;padding-bottom:6px}
+.menu-section__note{font-style:italic;color:#6b5d52;margin:6px 0 14px}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.menu-card{display:flex;gap:14px;background:#fff;border-radius:10px;padding:14px;
+ box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.menu-card__photo{width:84px;height:84px;border-radius:8px;flex:none}
+.menu-card__name{margin:2px 0 4px;font-size:19px}
+.badge{display:inline-block;background:#e8743b;color:#fff;font:bold 11px sans-serif;
+ padding:2px 7px;border-radius:9px}
+.tag{display:inline-block;border:1px solid #1f4e5f;color:#1f4e5f;font:bold 11px sans-serif;
+ padding:0 5px;border-radius:4px;margin-right:4px}
+.menu-card__price{font:bold 15px sans-serif;color:#1f4e5f;margin:6px 0}
+.menu-card__desc{margin:0;color:#5b5049;font-size:14px}
+footer{text-align:center;color:#8a7d72;padding:30px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="rivals-home" style="background:#222;padding:6px 16px;font:14px/1.4
+ system-ui,sans-serif"><a href="../" style="color:#fff;text-decoration:none">&larr; All
+ cafés</a> <span style="color:#999">· IST356 coffee rivals</span></div>
+<header><h1>Lakeshore Lattes</h1><p>Coffee, tea and baked goods by the water since 2014.</p></header>
+<nav><a href="#">Menu</a><a href="#">Visit</a><a href="#">Catering</a></nav>
+<main class="menu" id="menu">
+  <section class="menu-section">
+    <h2 class="menu-section__title">Espresso &amp; Coffee</h2>
+    <p class="menu-section__note">Every espresso drink is pulled from our Lakeshore Blend.</p>
+    <div class="menu-grid">
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/drip-coffee.png" alt="Drip Coffee">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Drip Coffee</h3>
+        <p class="menu-card__price">S $2.35 · L $3.55</p>
+        <p class="menu-card__desc">Our rotating single-origin, brewed fresh every half hour.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/espresso.png" alt="Espresso">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Espresso</h3>
+        <p class="menu-card__price">S $2.50 · L $3.70</p>
+        <p class="menu-card__desc">Two shots of our house espresso blend.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/cafe-latte.png" alt="Café Latte">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Café Latte</h3>
+        <p class="menu-card__price">S $4.35 · L $5.55</p>
+        <p class="menu-card__desc">Espresso with steamed milk and a thin layer of foam.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/cappuccino.png" alt="Cappuccino">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Cappuccino</h3>
+        <p class="menu-card__price">S $4.25 · L $5.45</p>
+        <p class="menu-card__desc">Equal parts espresso, steamed milk and velvety foam.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/mocha-latte.png" alt="Mocha Latte">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Mocha Latte</h3>
+        <p class="menu-card__price">S $4.75 · L $5.95</p>
+        <p class="menu-card__desc">Espresso, dark chocolate and steamed milk.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="menu-section">
+    <h2 class="menu-section__title">Cold Bar</h2>
+    <p class="menu-section__note">Every drink comes small or large.</p>
+    <div class="menu-grid">
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/iced-americano.png" alt="Iced Americano">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Iced Americano</h3>
+        <p class="menu-card__price">S $3.50 · L $4.70</p>
+        <p class="menu-card__desc">Espresso and cold water over ice.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/cold-brew-coffee.png" alt="Cold-Brew Coffee">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Cold-Brew Coffee</h3>
+        <div><span class="tag">V</span> <span class="tag">GF</span></div>
+<p class="menu-card__price">S $3.90 · L $5.10</p>
+        <p class="menu-card__desc">Steeped for 18 hours for a smooth, low-acid coffee.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="menu-section">
+    <h2 class="menu-section__title">Tea &amp; More</h2>
+    <p class="menu-section__note">Swap in oat or almond milk for 60¢.</p>
+    <div class="menu-grid">
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/chai-latte.png" alt="Chai Latte">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Chai Latte</h3>
+        <p class="menu-card__price">S $4.50 · L $5.70</p>
+        <p class="menu-card__desc">Spiced black tea concentrate with steamed milk.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/matcha-latte.png" alt="Matcha Latte">
+        <div class="menu-card__body">
+        <span class="badge badge--new">NEW!</span>
+<h3 class="menu-card__name">Matcha Latte</h3>
+        <div><span class="tag">V</span></div>
+<p class="menu-card__price">S $5.05 · L $6.25</p>
+        <p class="menu-card__desc">Ceremonial-grade matcha whisked with steamed milk.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/london-fog.png" alt="London Fog">
+        <div class="menu-card__body">
+        <span class="badge badge--new">NEW!</span>
+<h3 class="menu-card__name">London Fog</h3>
+        <div><span class="tag">V</span></div>
+<p class="menu-card__price">S $4.25 · L $5.45</p>
+        <p class="menu-card__desc">Earl Grey, vanilla and steamed milk.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/hot-chocolate.png" alt="Hot Chocolate">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Hot Chocolate</h3>
+        <div><span class="tag">GF</span></div>
+<p class="menu-card__price">S $3.35 · L $4.55</p>
+        <p class="menu-card__desc">Rich dark chocolate and steamed milk, topped with cream.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="menu-section">
+    <h2 class="menu-section__title">Bakery</h2>
+    <p class="menu-section__note">Baked in-house before sunrise.</p>
+    <div class="menu-grid">
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/croissant-almond.png" alt="Croissant, Almond">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Croissant, Almond</h3>
+        <p class="menu-card__price">$3.95</p>
+        <p class="menu-card__desc">Twice-baked croissant filled with almond cream.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/butter-croissant.png" alt="Butter Croissant">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Butter Croissant</h3>
+        <p class="menu-card__price">$3.25</p>
+        <p class="menu-card__desc">Flaky, all-butter, baked every morning.</p>
+        </div>
+      </article>
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/blueberry-muffin.png" alt="Blueberry Muffin">
+        <div class="menu-card__body">
+        <h3 class="menu-card__name">Blueberry Muffin</h3>
+        <p class="menu-card__price">$3.25</p>
+        <p class="menu-card__desc">Bursting with wild blueberries and a crumb top.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="menu-section">
+    <h2 class="menu-section__title">Breakfast</h2>
+    <p class="menu-section__note">Served until 11 a.m.</p>
+    <div class="menu-grid">
+      <article class="menu-card">
+        <img class="menu-card__photo" src="images/avocado-toast.png" alt="Avocado Toast">
+        <div class="menu-card__body">
+        <span class="badge badge--new">NEW!</span>
+<h3 class="menu-card__name">Avocado Toast</h3>
+        <div><span class="tag">V</span> <span class="tag">GF</span></div>
+<p class="menu-card__price">$8.50</p>
+        <p class="menu-card__desc">Smashed avocado, lemon and chili flakes on sourdough.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+<footer>Lakeshore Lattes is a fictional café made for IST356. Prices are made up.</footer>
+
+</body>
+</html>

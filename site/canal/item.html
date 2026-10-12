@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canal Street Coffee — Item</title>
+<style>
+body{margin:0;font-family:'Segoe UI',Roboto,sans-serif;background:#f4f6f8;color:#1d2733}
+header{background:#0d3b66;color:#fff;padding:18px 32px} header h1{margin:0;font-size:26px}
+header a{color:#fff}
+.wrap{max-width:900px;margin:0 auto;padding:20px 24px 50px}
+.controls{display:flex;flex-wrap:wrap;gap:12px;align-items:end;background:#fff;padding:16px;
+ border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.controls label{display:block;font-size:13px;color:#4a5866;margin-bottom:4px}
+.controls select,.controls input{font-size:15px;padding:7px 9px;border:1px solid #b8c2cc;border-radius:6px}
+button{font-size:15px;padding:8px 14px;border:0;border-radius:6px;background:#0d3b66;color:#fff;cursor:pointer}
+button.secondary{background:#e1e7ed;color:#0d3b66}
+#status{margin:16px 2px;color:#4a5866;min-height:20px}
+#status.error{color:#b3261e;font-weight:600}
+#results{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.result-card{display:block;background:#fff;border-radius:10px;padding:14px 16px;color:inherit;
+ text-decoration:none;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.result-card:hover{outline:2px solid #0d3b66}
+.result-card h3{margin:0 0 4px;font-size:18px}
+.result-card__category{margin:0;color:#6b7785;font-size:13px}
+#more{margin:18px auto 0;display:block} #more[hidden]{display:none}
+.detail{background:#fff;border-radius:10px;padding:22px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.detail h1{margin:0 0 4px}
+#sizes{border-collapse:collapse;margin:16px 0} #sizes td,#sizes th{padding:6px 14px;border-bottom:1px solid #e1e7ed;text-align:left}
+.fine{color:#8a96a3;font-size:12px;margin-top:30px}
+</style>
+</head>
+<body>
+<div class="rivals-home" style="background:#222;padding:6px 16px;font:14px/1.4
+ system-ui,sans-serif"><a href="../" style="color:#fff;text-decoration:none">&larr; All
+ cafés</a> <span style="color:#999">· IST356 coffee rivals</span></div>
+<header><h1><a href="./">Canal Street Coffee</a></h1></header>
+<div class="wrap"><div class="detail" id="detail"><p>Loading…</p></div></div>
+<script src="item.js"></script>
+</body>
+</html>

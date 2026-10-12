@@ -1,0 +1,145 @@
+cafe,category,kind,item,size,price
+Salt City Coffee,Coffee,drink,Drip Coffee,S,2.25
+Salt City Coffee,Coffee,drink,Drip Coffee,M,2.75
+Salt City Coffee,Coffee,drink,Drip Coffee,L,3.25
+Salt City Coffee,Coffee,drink,Espresso,S,2.25
+Salt City Coffee,Coffee,drink,Espresso,M,2.75
+Salt City Coffee,Coffee,drink,Espresso,L,3.25
+Salt City Coffee,Coffee,drink,Americano,S,3.0
+Salt City Coffee,Coffee,drink,Americano,M,3.5
+Salt City Coffee,Coffee,drink,Americano,L,4.0
+Salt City Coffee,Coffee,drink,Iced Americano,S,3.25
+Salt City Coffee,Coffee,drink,Iced Americano,M,3.75
+Salt City Coffee,Coffee,drink,Iced Americano,L,4.25
+Salt City Coffee,Coffee,drink,Latte,S,3.95
+Salt City Coffee,Coffee,drink,Latte,M,4.45
+Salt City Coffee,Coffee,drink,Latte,L,4.95
+Salt City Coffee,Coffee,drink,Cappuccino,S,3.95
+Salt City Coffee,Coffee,drink,Cappuccino,M,4.45
+Salt City Coffee,Coffee,drink,Cappuccino,L,4.95
+Salt City Coffee,Coffee,drink,Mocha Latte,S,4.45
+Salt City Coffee,Coffee,drink,Mocha Latte,M,4.95
+Salt City Coffee,Coffee,drink,Mocha Latte,L,5.45
+Salt City Coffee,Coffee,drink,Pumpkin Spice Latte,S,4.95
+Salt City Coffee,Coffee,drink,Pumpkin Spice Latte,M,5.45
+Salt City Coffee,Coffee,drink,Pumpkin Spice Latte,L,5.95
+Salt City Coffee,Coffee,drink,Salt City Sea Salt Latte,S,4.75
+Salt City Coffee,Coffee,drink,Salt City Sea Salt Latte,M,5.25
+Salt City Coffee,Coffee,drink,Salt City Sea Salt Latte,L,5.75
+Salt City Coffee,Coffee,drink,Oat Milk Cortado,S,3.75
+Salt City Coffee,Coffee,drink,Oat Milk Cortado,M,4.25
+Salt City Coffee,Coffee,drink,Oat Milk Cortado,L,4.75
+Salt City Coffee,Coffee,drink,Cold Brew,S,4.45
+Salt City Coffee,Coffee,drink,Cold Brew,M,4.95
+Salt City Coffee,Coffee,drink,Cold Brew,L,5.45
+Salt City Coffee,Tea & More,drink,Chai Latte,S,4.25
+Salt City Coffee,Tea & More,drink,Chai Latte,M,4.75
+Salt City Coffee,Tea & More,drink,Chai Latte,L,5.25
+Salt City Coffee,Tea & More,drink,Hot Chocolate,S,3.25
+Salt City Coffee,Tea & More,drink,Hot Chocolate,M,3.75
+Salt City Coffee,Tea & More,drink,Hot Chocolate,L,4.25
+Salt City Coffee,Bakery,food,Almond Croissant,Each,4.5
+Salt City Coffee,Bakery,food,Blueberry Scone,Each,3.75
+Salt City Coffee,Bakery,food,Cinnamon Roll,Each,4.25
+Salt City Coffee,Breakfast,food,Breakfast Sandwich,Each,6.95
+Lakeshore Lattes,Espresso & Coffee,drink,Drip Coffee,S,2.35
+Lakeshore Lattes,Espresso & Coffee,drink,Drip Coffee,L,3.55
+Lakeshore Lattes,Espresso & Coffee,drink,Espresso,S,2.5
+Lakeshore Lattes,Espresso & Coffee,drink,Espresso,L,3.7
+Lakeshore Lattes,Espresso & Coffee,drink,Café Latte,S,4.35
+Lakeshore Lattes,Espresso & Coffee,drink,Café Latte,L,5.55
+Lakeshore Lattes,Espresso & Coffee,drink,Cappuccino,S,4.25
+Lakeshore Lattes,Espresso & Coffee,drink,Cappuccino,L,5.45
+Lakeshore Lattes,Espresso & Coffee,drink,Mocha Latte,S,4.75
+Lakeshore Lattes,Espresso & Coffee,drink,Mocha Latte,L,5.95
+Lakeshore Lattes,Cold Bar,drink,Iced Americano,S,3.5
+Lakeshore Lattes,Cold Bar,drink,Iced Americano,L,4.7
+Lakeshore Lattes,Cold Bar,drink,Cold-Brew Coffee,S,3.9
+Lakeshore Lattes,Cold Bar,drink,Cold-Brew Coffee,L,5.1
+Lakeshore Lattes,Tea & More,drink,Chai Latte,S,4.5
+Lakeshore Lattes,Tea & More,drink,Chai Latte,L,5.7
+Lakeshore Lattes,Tea & More,drink,Matcha Latte,S,5.05
+Lakeshore Lattes,Tea & More,drink,Matcha Latte,L,6.25
+Lakeshore Lattes,Tea & More,drink,London Fog,S,4.25
+Lakeshore Lattes,Tea & More,drink,London Fog,L,5.45
+Lakeshore Lattes,Tea & More,drink,Hot Chocolate,S,3.35
+Lakeshore Lattes,Tea & More,drink,Hot Chocolate,L,4.55
+Lakeshore Lattes,Bakery,food,"Croissant, Almond",Each,3.95
+Lakeshore Lattes,Bakery,food,Butter Croissant,Each,3.25
+Lakeshore Lattes,Bakery,food,Blueberry Muffin,Each,3.25
+Lakeshore Lattes,Breakfast,food,Avocado Toast,Each,8.5
+Hilltop Grind,Coffee,drink,Drip Coffee,S,2.15
+Hilltop Grind,Coffee,drink,Cold Brew,S,3.8
+Hilltop Grind,Coffee,drink,Drip Coffee,M,2.6
+Hilltop Grind,Coffee,drink,Cold Brew,M,4.25
+Hilltop Grind,Coffee,drink,Drip Coffee,L,3.05
+Hilltop Grind,Coffee,drink,Cold Brew,L,4.7
+Hilltop Grind,Shots,drink,Espresso,S,2.15
+Hilltop Grind,Shots,drink,Espresso,M,2.6
+Hilltop Grind,Shots,drink,Espresso,L,3.05
+Hilltop Grind,Espresso Drinks,drink,Americano,S,3.0
+Hilltop Grind,Espresso Drinks,drink,"Americano, Iced",S,3.3
+Hilltop Grind,Espresso Drinks,drink,Caffe Latte,S,4.15
+Hilltop Grind,Espresso Drinks,drink,Cappucino,S,3.95
+Hilltop Grind,Espresso Drinks,drink,"Latte, Mocha",S,4.6
+Hilltop Grind,Espresso Drinks,drink,Pumpkin Spice Latte,S,4.9
+Hilltop Grind,Espresso Drinks,drink,Americano,M,3.45
+Hilltop Grind,Espresso Drinks,drink,"Americano, Iced",M,3.75
+Hilltop Grind,Espresso Drinks,drink,Caffe Latte,M,4.6
+Hilltop Grind,Espresso Drinks,drink,Cappucino,M,4.4
+Hilltop Grind,Espresso Drinks,drink,"Latte, Mocha",M,5.05
+Hilltop Grind,Espresso Drinks,drink,Pumpkin Spice Latte,M,5.35
+Hilltop Grind,Espresso Drinks,drink,Americano,L,3.9
+Hilltop Grind,Espresso Drinks,drink,"Americano, Iced",L,4.2
+Hilltop Grind,Espresso Drinks,drink,Caffe Latte,L,5.05
+Hilltop Grind,Espresso Drinks,drink,Cappucino,L,4.85
+Hilltop Grind,Espresso Drinks,drink,"Latte, Mocha",L,5.5
+Hilltop Grind,Espresso Drinks,drink,Pumpkin Spice Latte,L,5.8
+Hilltop Grind,Not Coffee,drink,Chai Tea Latte,S,4.4
+Hilltop Grind,Not Coffee,drink,London Fog,S,4.2
+Hilltop Grind,Not Coffee,drink,Hot Chocolate,S,3.2
+Hilltop Grind,Not Coffee,drink,Chai Tea Latte,M,4.85
+Hilltop Grind,Not Coffee,drink,London Fog,M,4.65
+Hilltop Grind,Not Coffee,drink,Hot Chocolate,M,3.65
+Hilltop Grind,Not Coffee,drink,Chai Tea Latte,L,5.3
+Hilltop Grind,Not Coffee,drink,London Fog,L,5.1
+Hilltop Grind,Not Coffee,drink,Hot Chocolate,L,4.1
+Hilltop Grind,Pastries,food,Blueberry Scone,Each,3.5
+Hilltop Grind,Breakfast,food,Egg & Cheese Breakfast Sandwich,Each,6.5
+Hilltop Grind,Breakfast,food,Avocado Toast,Each,7.95
+Hilltop Grind,Breakfast,food,Bagel w/ Cream Cheese,Each,3.25
+Canal Street Coffee,Coffee,drink,Brewed Coffee,S,2.45
+Canal Street Coffee,Coffee,drink,Brewed Coffee,M,2.85
+Canal Street Coffee,Coffee,drink,Brewed Coffee,L,3.25
+Canal Street Coffee,Coffee,drink,Espresso,S,2.6
+Canal Street Coffee,Coffee,drink,Espresso,M,3.0
+Canal Street Coffee,Coffee,drink,Espresso,L,3.4
+Canal Street Coffee,Coffee,drink,Caffè Americano,S,3.35
+Canal Street Coffee,Coffee,drink,Caffè Americano,M,3.75
+Canal Street Coffee,Coffee,drink,Caffè Americano,L,4.15
+Canal Street Coffee,Coffee,drink,Latte,S,4.35
+Canal Street Coffee,Coffee,drink,Latte,M,4.75
+Canal Street Coffee,Coffee,drink,Latte,L,5.15
+Canal Street Coffee,Coffee,drink,Cappuccino,S,4.2
+Canal Street Coffee,Coffee,drink,Cappuccino,M,4.6
+Canal Street Coffee,Coffee,drink,Cappuccino,L,5.0
+Canal Street Coffee,Coffee,drink,Mochaccino,S,4.85
+Canal Street Coffee,Coffee,drink,Mochaccino,M,5.25
+Canal Street Coffee,Coffee,drink,Mochaccino,L,5.65
+Canal Street Coffee,Coffee,drink,PSL,S,5.1
+Canal Street Coffee,Coffee,drink,PSL,M,5.5
+Canal Street Coffee,Coffee,drink,PSL,L,5.9
+Canal Street Coffee,Coffee,drink,Cortado,S,3.55
+Canal Street Coffee,Coffee,drink,Cortado,M,3.95
+Canal Street Coffee,Coffee,drink,Cortado,L,4.35
+Canal Street Coffee,Coffee,drink,Nitro Cold Brew,S,4.85
+Canal Street Coffee,Coffee,drink,Nitro Cold Brew,M,5.25
+Canal Street Coffee,Coffee,drink,Nitro Cold Brew,L,5.65
+Canal Street Coffee,Tea,drink,Matcha Latte,S,5.05
+Canal Street Coffee,Tea,drink,Matcha Latte,M,5.45
+Canal Street Coffee,Tea,drink,Matcha Latte,L,5.85
+Canal Street Coffee,Food,food,Almond Croissant,Each,3.85
+Canal Street Coffee,Food,food,Blueberry Muffin,Each,3.45
+Canal Street Coffee,Food,food,Breakfast Sandwich,Each,7.25
+Canal Street Coffee,Food,food,Avocado Toast,Each,8.25
+Canal Street Coffee,Food,food,Bagel & Cream Cheese,Each,3.5

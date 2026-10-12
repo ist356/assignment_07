@@ -1,0 +1,44 @@
+item,category,size,price
+Drip Coffee,Coffee,S,2.25
+Drip Coffee,Coffee,M,2.75
+Drip Coffee,Coffee,L,3.25
+Espresso,Coffee,S,2.25
+Espresso,Coffee,M,2.75
+Espresso,Coffee,L,3.25
+Americano,Coffee,S,3.0
+Americano,Coffee,M,3.5
+Americano,Coffee,L,4.0
+Iced Americano,Coffee,S,3.25
+Iced Americano,Coffee,M,3.75
+Iced Americano,Coffee,L,4.25
+Latte,Coffee,S,3.95
+Latte,Coffee,M,4.45
+Latte,Coffee,L,4.95
+Cappuccino,Coffee,S,3.95
+Cappuccino,Coffee,M,4.45
+Cappuccino,Coffee,L,4.95
+Mocha Latte,Coffee,S,4.45
+Mocha Latte,Coffee,M,4.95
+Mocha Latte,Coffee,L,5.45
+Pumpkin Spice Latte,Coffee,S,4.95
+Pumpkin Spice Latte,Coffee,M,5.45
+Pumpkin Spice Latte,Coffee,L,5.95
+Salt City Sea Salt Latte,Coffee,S,4.75
+Salt City Sea Salt Latte,Coffee,M,5.25
+Salt City Sea Salt Latte,Coffee,L,5.75
+Oat Milk Cortado,Coffee,S,3.75
+Oat Milk Cortado,Coffee,M,4.25
+Oat Milk Cortado,Coffee,L,4.75
+Cold Brew,Coffee,S,4.45
+Cold Brew,Coffee,M,4.95
+Cold Brew,Coffee,L,5.45
+Chai Latte,Tea & More,S,4.25
+Chai Latte,Tea & More,M,4.75
+Chai Latte,Tea & More,L,5.25
+Hot Chocolate,Tea & More,S,3.25
+Hot Chocolate,Tea & More,M,3.75
+Hot Chocolate,Tea & More,L,4.25
+Almond Croissant,Bakery,Each,4.5
+Blueberry Scone,Bakery,Each,3.75
+Cinnamon Roll,Bakery,Each,4.25
+Breakfast Sandwich,Breakfast,Each,6.95

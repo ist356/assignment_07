@@ -1,0 +1,24 @@
+#!/bin/sh
+# graderthan sandbox entrypoint: install this assignment's dependencies, run the
+# autograder, and emit /work/.grader/results.json
+#
+# NOTE: the pip install below needs "Sandbox network" turned ON for the
+# assignment in GraderThan. With network off it fails and the tests will error
+# on any import that is not already in the base image (rapidfuzz, lxml).
+#
+# The scraper tests need Chromium for Playwright. The course image
+# (mafudge/ist356) installs it at /ms-playwright; playwright is left unpinned in
+# requirements.txt so pip keeps the version whose browser is already there.
+cd /work || exit 1
+
+# --break-system-packages is required on PEP 668 ("externally managed") images
+# and is rejected by pip < 23.0, so fall back to a plain install. A failure here
+# is deliberately NOT fatal: grade.py still runs, so a missing dependency shows
+# up as a normal test failure with a readable message instead of a dead run.
+if [ -f requirements.txt ]; then
+    python3 -m pip install -q --break-system-packages -r requirements.txt 2>/dev/null \
+        || python3 -m pip install -q -r requirements.txt 2>/dev/null \
+        || echo "WARNING: dependency install failed (is Sandbox network on?)" >&2
+fi
+
+exec python3 grader/grade.py
