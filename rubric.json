@@ -96,7 +96,7 @@
     {
       "id": "code_style",
       "name": "Code style & readability",
-      "description": "Code is for computers AND humans. Four checks on everything in code/, the same ones `ruff check` and a read of your code will show you before you submit (README Reference #14). All four must pass for the point.",
+      "description": "Code is for computers AND humans. Four checks on everything in code/, the same ones `ruff check` and a read of your code will show you before you submit (README Reference #13). All four must pass for the point.",
       "judge": "static",
       "max": 1,
       "feedback": "ai",

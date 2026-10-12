@@ -89,8 +89,11 @@ def site_url():
     server.shutdown()
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture
 def browser():
+    """A browser for one test, closed afterwards. (Not shared across tests: the
+    scrape_menus.py test starts its own browser, and a grading container has room
+    for only one Chromium at a time.)"""
     with sync_playwright() as playwright:
         # Containers (Codespaces, the grader) have very little shared memory;
         # without this flag Chromium can crash as soon as it opens a page.
