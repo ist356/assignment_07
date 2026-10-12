@@ -285,7 +285,19 @@ When everything is reviewed, the app should show **25** prices below the market 
 **10** above (one per item and size; 👉👈 Average counts as neither), and **8** items
 only the rivals sell — avocado toast at all three.
 
-![Screenshot of the Analysis page](analysis_page.png)
+The **Prices** tab:
+
+![The Prices tab: two cards, the Products filter, and the price table with our_position](analysis_prices.png)
+
+The **Gaps** tab:
+
+![The Gaps tab: what only the rivals sell, and what only we sell](analysis_gaps.png)
+
+These screenshots come from a run where the owner got **two** review questions wrong:
+she matched Canal Street's *Cortado* to our Oat Milk Cortado and its *Nitro Cold Brew* to
+our Cold Brew. That is why they show **13** above the market, and only 6 items only the
+rivals sell and 2 only we sell. The analysis is only as good as the matching — with the
+right answers you'll see 25 / 10, 8 and 3.
 
 ### Step 10 — Commit
 
